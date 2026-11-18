@@ -1,5 +1,5 @@
 # Ex. No: 5 Inter-VLAN Routing Using Router-on-a-Stick
-# Date:
+# Date:18.11.2026
 ________________________________________
 # Objective
 To configure Inter-VLAN routing using a single router interface with subinterfaces (Router-on-a-Stick) so that hosts in different VLANs can communicate with each other.
@@ -18,7 +18,8 @@ ________________________________________
 •	Switch connected to Router via a trunk port (FastEthernet0/1 on switch → GigabitEthernet0/0 on router)<br>
 •	Router subinterfaces handle VLAN routing<br>
 (Insert screenshot of your Packet Tracer setup here)<br>
-________________________________________
+<img width="772" height="527" alt="Screenshot 2026-11-18 180200" src="https://github.com/user-attachments/assets/cdfcd9d6-aff6-4bad-993d-f27d5f369c5b" />
+_______________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
 PC0	10	192.168.10.1	255.255.255.0	FastEthernet0/1<br>
@@ -87,10 +88,22 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
+<img width="1920" height="1080" alt="Screenshot (260)" src="https://github.com/user-attachments/assets/f5f81fcf-bf12-46e1-958a-f0525aa62e0c" />
+
 •	Router subinterface configuration<br>
+<img width="1920" height="1080" alt="Screenshot (261)" src="https://github.com/user-attachments/assets/89d11e30-ff2e-4d85-9004-56217239267f" />
+
 •	PC IP settings<br>
+<img width="1920" height="1080" alt="Screenshot (262)" src="https://github.com/user-attachments/assets/845adfb6-6bcd-4679-9baf-4a458a77d995" />
+<img width="1920" height="1080" alt="Screenshot (263)" src="https://github.com/user-attachments/assets/faf27284-691b-491c-80f5-504c1530877e" />
+<img width="1920" height="1080" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/571617c3-9004-40d5-b796-a1a476d2cf9d" />
+<img width="1920" height="1080" alt="Screenshot (265)" src="https://github.com/user-attachments/assets/3a9c8973-10b9-4c27-976a-fc307afd155e" />
+
+
 •	Successful ping between PCs in different VLANs after routing<br>
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1080" alt="Screenshot (259)" src="https://github.com/user-attachments/assets/4baa7b75-e51f-4907-8ec6-ffcf2af8e180" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
