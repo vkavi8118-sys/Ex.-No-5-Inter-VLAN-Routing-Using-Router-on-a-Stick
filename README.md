@@ -101,6 +101,8 @@ ________________________________________
 
 
 •	Successful ping between PCs in different VLANs after routing<br>
+<img width="1920" height="1080" alt="Screenshot (258)" src="https://github.com/user-attachments/assets/7eb92d70-878b-465e-8bec-373f937b36fb" />
+
 •	Successful ping between PCs in the same VLAN<br>
 <img width="1920" height="1080" alt="Screenshot (259)" src="https://github.com/user-attachments/assets/4baa7b75-e51f-4907-8ec6-ffcf2af8e180" />
 
